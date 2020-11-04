@@ -3,4 +3,7 @@ $(document).ready(function() {
         $("#h1").css({ "color": "green" });
     });
 
+    $("#add").on("click", function() {
+        $("<p>.</p>").appendTo(".content");
+    });
 });

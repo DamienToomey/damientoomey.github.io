@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    /* sticky footer with flex: https://css-tricks.com/couple-takes-sticky-footer */
+    flex-direction: column;
+}
+
+
+/* The navigation bar */
+
+.top_banner {
+    background: linear-gradient(135deg, #195b94, #20975a);
+}
+
+
+/* Links inside the navbar */
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+
+/* Change background on mouse-over */
+
+.top_banner a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.content2 {
+    margin: 0px 10px 0px 10px;
+    /* top | right | bottom | left */
+}
+
+.bottom_banner {
+    /* padding: 10px 10px 10px 10px; */
+    background: linear-gradient(135deg, #20975a, #195b94);
+    flex-shrink: 0;
+}
+
+#photo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.table {
+    display: table;
+}
+
+.table_row {
+    display: table-row;
+}
+
+.table_cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
+
+#linkedin_logo,
+#github_logo {
+    font-size: 40px;
+}
+
+#linkedin_logo:hover,
+#github_logo:hover {
+    color: rgb(255, 238, 0);
+}

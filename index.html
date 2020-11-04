@@ -3,19 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Otherwise I get https://damientoomey.github.io/favicon.ico error-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- To get linkedin and github logos-->
 </head>
 <html>
 
 <body>
-    <h1 id="h1">HelloHellosS</h1>
+    <div class="content">
+        <div class="top_banner">
+            <div class="table">
+                <div class="table_row">
+                    <a class="table_cell" href=""><img src="assets/images/damientoomey.jpg" id="photo" alt="Damien Toomey" /> | Damien Toomey</a>
+                    <a class="table_cell" href="">Home</a>
+                </div>
+            </div>
+        </div>
+        <div class="content2">
+            <h1 id="h1">Hello (WIP)</h1>
 
-    <button id="button_hello">hello</button>
+            <p>Hi! I'm Damien Toomey.<br>I have just graduated from INSA Rouen, a French engineering school.<br>I am currently looking for an opportunity in Machine Learning.</p>
+            <button id="button_hello">Click me</button>
+            <p><button id="add">Add Content</button></p>
+        </div>
 
+    </div>
+
+    <div class="bottom_banner">
+        <div class="table">
+            <div class="table_row">
+                <a class="table_cell" href="https://linkedin.com/in/damien-toomey" target="_blank"><i class=" fa fa-linkedin " id="linkedin_logo"></i></a>
+                <a class="table_cell " href="https://github.com/DamienToomey" target="_blank"><i class="fa fa-github" id="github_logo"></i>
+                <a>
+            </div>
+        </div>
+    </div>
 </body>
 
 <footer>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
 </footer>
 
 </html>
