@@ -13,8 +13,18 @@
     <button id="button_hello">hello</button>
 
 </body>
-<footer>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#button_hello").click(function() {
+            $("#h1").css({
+                "color": "green"
+            });
+        });
+
+    });
+</script>
+<!-- <footer>
     <script type="text/javascript" src="js/index.js"></script>
-</footer>
+</footer> -->
 
 </html>
