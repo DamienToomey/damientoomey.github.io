@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $("#button_hello").click(function() {
-        $("#h1").css({ "color": "green" });
+    $("#button_change_color").click(function() {
+        $("h1").css({ "color": "green" });
     });
 
     $("#add").on("click", function() {
-        $("<p>.</p>").appendTo(".content");
+        $("<p>.</p>").appendTo("#append");
     });
 });
