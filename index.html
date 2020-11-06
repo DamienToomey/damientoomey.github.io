@@ -23,8 +23,7 @@
 <body>
 
     <header>
-        <!-- Fixed navbar -->
-        <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark">
             <span class="navbar-brand"><img src="assets/images/damientoomey.jpg" id="photo" alt="Damien Toomey" /> | Damien Toomey</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,7 +40,7 @@
     </header>
 
     <!-- Begin page content -->
-    <main role="main" class="container">
+    <main class="container">
         <h1 class="mt-5">Hi! I'm Damien Toomey.</h1>
         <p class="lead">
             I have just graduated from INSA Rouen, a French engineering school.
@@ -56,14 +55,14 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <form method="get" action="CV_DamienTOOMEY.pdf">
-                <a href="https://linkedin.com/in/damien-toomey" target="_blank"><i class="fa fa-linkedin" id="linkedin_logo"></i></a>
-                <a href="https://github.com/DamienToomey" target="_blank"><i class="fa fa-github" id="github_logo"></i></a>
-                <button id="cv" class="btn btn-outline-success font-weight-bold" type="submit">CV</button>
-                <!-- both the HTML and downloadable file needs to be present in the same directory -->
-            </form>
-        </div>
+        <form method="get" action="CV_DamienTOOMEY.pdf">
+            <a href="https://linkedin.com/in/damien-toomey" target="_blank"><i class="fa fa-linkedin" id="linkedin_logo"></i></a>
+            <a href="https://github.com/DamienToomey" target="_blank"><i class="fa fa-github" id="github_logo"></i></a>
+            <a href="CV_DamienTOOMEY.pdf">CV</a>
+            <button id="cv" class="btn btn-outline-success font-weight-bold" type="submit">CV</button>
+            <!-- both the HTML and downloadable file needs to be present in the same directory -->
+        </form>
+
     </footer>
 
     <!-- Bootstrap core JavaScript
