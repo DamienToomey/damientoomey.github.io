@@ -1,16 +1,6 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 
-
-/* html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin-bottom: 60px;
-} */
-
 html,
 body {
     /* IE 10-11 didn't like using min-height */
@@ -62,26 +52,32 @@ nav a:hover {
     text-decoration: underline !important;
 }
 
-#linkedin_logo,
-#github_logo {
-    font-size: 40px;
+.fancy_link {
+    text-decoration: none;
     color: white;
-    vertical-align: middle;
-}
-
-#linkedin_logo:hover,
-#github_logo:hover {
-    color: black;
-}
-
-#cv {
-    padding: 5px;
-    font-size: 25px;
-    color: white;
-    background-color: transparent;
     border-radius: 10%;
     margin-left: 10px;
     font-family: Impact, Charcoal, sans-serif;
+    font-weight: bold;
+    border: 1px solid rgb(8, 170, 49);
+    vertical-align: middle;
+}
+
+.fancy_link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(8, 170, 49);
+}
+
+#linkedin_logo,
+#github_logo {
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+#cv {
+    font-size: 25px;
+    padding: 8px 6px 8px 6px;
 }
 
 h1 {
